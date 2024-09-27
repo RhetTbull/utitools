@@ -32,7 +32,7 @@ if is_macos:
     import CoreServices
     import objc
 
-logger = logging.getLogger("osxphotos")
+logger = logging.getLogger("utitools")
 
 __all__ = ["get_preferred_uti_extension", "get_uti_for_extension", "get_uti_for_path"]
 
