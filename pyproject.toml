@@ -25,6 +25,9 @@ dependencies = [
     "pyobjc-core>=9.0,<11.0; sys_platform == 'darwin' and platform_release >= '22.0'",
     "pyobjc-framework-CoreServices>=9.0,<10.0; sys_platform == 'darwin' and platform_release < '22.0'",
     "pyobjc-framework-CoreServices>=9.0,<11.0; sys_platform == 'darwin' and platform_release >= '22.0'",
+    # UniformTypeIdentifiers is only available on BigSur (11.0) and later which is platform_release >= '20.0'
+    "pyobjc-framework-UniformTypeIdentifiers>=9.0,<10.0; sys_platform == 'darwin' and platform_release >= '20.0'",
+    "pyobjc-framework-UniformTypeIdentifiers>=9.0,<11.0; sys_platform == 'darwin' and platform_release >= '22.0'",
 ]
 
 [project.optional-dependencies]
@@ -43,7 +46,6 @@ Source = "https://github.com/RhetTbull/utitools"
 
 [tool.flit.sdist]
 exclude = ["site/**/*"]
-
 [tool.bumpversion]
 current_version = "0.1.0"
 parse = "(?P<major>\\d+)\\.(?P<minor>\\d+)\\.(?P<patch>\\d+)"
@@ -52,11 +54,18 @@ search = "{current_version}"
 replace = "{new_version}"
 regex = false
 ignore_missing_version = false
+ignore_missing_files = false
 tag = false
 sign_tags = false
 tag_name = "v{new_version}"
 tag_message = "Bump version: {current_version} → {new_version}"
-allow_dirty = false
+allow_dirty = true
 commit = false
 message = "Bump version: {current_version} → {new_version}"
 commit_args = ""
+setup_hooks = []
+pre_commit_hooks = []
+post_commit_hooks = []
+
+[[tool.bumpversion.files]]
+filename = "utitools/src/__init__.py"
