@@ -26,6 +26,7 @@ if is_macos:
     import CoreServices
     import objc
     from Foundation import NSString
+
     try:
         # only available on macOS >= 11
         from UniformTypeIdentifiers import UTType
@@ -107,28 +108,19 @@ def uti_for_suffix(suffix: str) -> str | None:
     if suffix[0] == ".":
         suffix = suffix[1:]
 
-    if is_macos and (OS_VER, OS_MAJOR) <= (10, 16):
-        # https://developer.apple.com/documentation/coreservices/1448939-uttypecreatepreferredidentifierf
-        with objc.autorelease_pool():
-            uti = CoreServices.UTTypeCreatePreferredIdentifierForTag(
-                CoreServices.kUTTagClassFilenameExtension, suffix, None
-            )
-            if uti:
-                return uti
+    if sys.platform != "darwin":
+        return _uti_for_suffix_non_darwin(suffix)
 
-            # on MacOS 10.12, HEIC files are not supported and UTTypeCopyPreferredTagWithClass will return None for HEIC
-            if suffix.lower() == "heic":
-                return "public.heic"
-
-            return None
-
-    return _get_uti_from_ext_dict(suffix) or None
+    if (OS_VER, OS_MAJOR) <= (10, 16):
+        return _uti_for_suffix_darwin_10(suffix)
+    return _uti_for_suffix_darwin_12(suffix)
 
 
 def uti_for_path(path: str | pathlib.Path | os.PathLike) -> str | None:
     """Get UTI for a file at given path or None if UTI cannot be determined"""
     path = path if isinstance(path, pathlib.Path) else pathlib.Path(path)
     return uti_for_suffix(path.suffix)
+
 
 def _preferred_uti_for_suffix_non_darwin(uti: str) -> str | None:
     if suffix := _get_ext_from_uti_dict(uti):
@@ -158,3 +150,34 @@ def _preferred_uti_for_suffix_darwin_12(uti: str) -> str | None:
         uti_nsstring = NSString.stringWithString_(uti)
         ut_type = UTType.typeWithIdentifier_(uti_nsstring)
         return f".{ut_type.preferredFilenameExtension()}" if ut_type else None
+
+
+def _uti_for_suffix_non_darwin(suffix: str) -> str | None:
+    return _get_uti_from_ext_dict(suffix) or None
+
+
+def _uti_for_suffix_darwin_10(suffix: str) -> str | None:
+    # https://developer.apple.com/documentation/coreservices/1448939-uttypecreatepreferredidentifierf
+    with objc.autorelease_pool():
+        uti = CoreServices.UTTypeCreatePreferredIdentifierForTag(
+            CoreServices.kUTTagClassFilenameExtension, suffix, None
+        )
+        if uti:
+            return uti
+
+        # on MacOS 10.12, HEIC files are not supported and UTTypeCopyPreferredTagWithClass will return None for HEIC
+        if suffix.lower() == "heic":
+            return "public.heic"
+
+        return None
+
+
+def _uti_for_suffix_darwin_12(suffix: str) -> str | None:
+    with objc.autorelease_pool():
+        suffix_nsstring = NSString.stringWithString_(suffix)
+        ut_type = UTType.typeWithFilenameExtension_(suffix_nsstring)
+        uti = ut_type.identifier() if ut_type else None
+        if uti and uti.startswith("dyn."):
+            # dynamic UTIs are not useful for file type identification
+            uti = None
+        return uti
