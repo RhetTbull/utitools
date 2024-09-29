@@ -1,4 +1,4 @@
-"""Generate uti.csv for use by utitools"""
+"""Generate uti.csv for use by utitools; this script may take a long time to run!"""
 
 import csv
 import itertools
@@ -6,6 +6,7 @@ import string
 
 from utitools import preferred_suffix_for_uti, uti_for_suffix
 
+MAX_SUFFIX_LEN = 10
 
 def generate_csv_data():
     characters = string.ascii_lowercase + string.digits 
@@ -14,10 +15,11 @@ def generate_csv_data():
     csv_writer = csv.writer(fd)
     csv_writer.writerow(["extension", "UTI", "preferred_extension"])
 
-    # Generate combinations for length 1 to 10 
-    for length in range(1, 11):
+    for length in range(1, MAX_SUFFIX_LEN+1):
         for combination in itertools.product(characters, repeat=length):
             suffix = "".join(combination)
+            status = f" checking {suffix}".ljust(MAX_SUFFIX_LEN+10)
+            print(status, end="\r")
             uti = uti_for_suffix(suffix)
             if not uti:
                 continue
@@ -26,6 +28,7 @@ def generate_csv_data():
                 preferred_suffix = preferred_suffix[1:]
             print(",".join([suffix, uti, preferred_suffix]))
             csv_writer.writerow([suffix, uti, preferred_suffix])
+            fd.flush()
     fd.close()
 
 if __name__ == "__main__":
