@@ -90,6 +90,10 @@ The code path of `utitools` changes depending on the macOS version:
 
 On non-macOS platforms, `utitools` does not have direct access to macOS UTI APIs. Instead, it relies on a cached dictionary loaded from a CSV (`uti.csv`) containing mappings of file extensions and UTIs. This provides a level of compatibility for platforms like Windows or Linux.
 
+The CSV file must be generated using the script `generate_uti_csv.py` on macOS. The script calls the macOS APIs for every possible file extension under a specified lenght and writes the mappings to the CSV file. This file is then used by `utitools` on non-macOS platforms. This is a hack but it works. PRs are welcome to improve this or provide a native way to get UTIs on non-macOS platforms.
+
+I use this library primarily to get UTIs for various image and video formats on macOS so this process is sufficient for my uses.
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
