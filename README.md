@@ -68,7 +68,7 @@ Get the preferred file extension for a given UTI.
 >>>
 ```
 
-### 3. `def uti_for_path(path: str | os.PathLike) -> str | None`
+### 3. `uti_for_path(path: str | os.PathLike) -> str | None`
 
 Get the UTI for a file at the given path based on its file extension.
 
