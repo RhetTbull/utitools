@@ -32,3 +32,7 @@ Update version using `bump-my-version bump minor --verbose`. (minor, major, patc
 Add and commit changes to git.
 
 Then `flit build` followed by `flit publish`.
+
+## Generating the uti.csv file
+
+Run the script `generate_uti_csv.py` on macOS which will generate the file uti.csv. Move this file to the `src/utitools/uti.csv`
