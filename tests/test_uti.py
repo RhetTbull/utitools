@@ -4,7 +4,12 @@ from unittest.mock import patch
 
 import pytest
 
-from utitools import preferred_suffix_for_uti, uti_for_path, uti_for_suffix
+from utitools import (
+    content_type_tree_for_uti,
+    preferred_suffix_for_uti,
+    uti_for_path,
+    uti_for_suffix,
+)
 
 UTI_SUFFIX = [
     ("public.jpeg", ".jpeg"),  # Common UTI
@@ -39,6 +44,31 @@ PATH_UTI = [
     ("/Users/does/Desktop/foo", None),  # no suffix
 ]
 
+UTI_CONTENT_TREE_DATA = {
+    "public.jpeg": [
+        "public.jpeg",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content",
+    ],
+    "public.png": [
+        "public.png",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content",
+    ],
+    "com.canon.cr2-raw-image": [
+        "com.canon.cr2-raw-image",
+        "public.camera-raw-image",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content",
+    ],
+}
+
 
 @pytest.mark.parametrize("uti, expected_suffix", UTI_SUFFIX)
 def test_get_preferred_uti_suffix(uti, expected_suffix):
@@ -48,7 +78,7 @@ def test_get_preferred_uti_suffix(uti, expected_suffix):
 
 @pytest.mark.parametrize("uti, expected_suffix", UTI_SUFFIX)
 def test_get_preferred_uti_suffix_linux(uti, expected_suffix):
-    """Test preferred_suffix_for_uti on-Darwin code path even if running on macOS."""
+    """Test preferred_suffix_for_uti on non-Darwin code path even if running on macOS."""
     with patch("sys.platform", "linux"):
         assert preferred_suffix_for_uti(uti) == expected_suffix
 
@@ -61,7 +91,7 @@ def test_get_uti_for_suffix(suffix, expected_uti):
 
 @pytest.mark.parametrize("suffix, expected_uti", SUFFIX_UTI)
 def test_get_uti_for_suffix_linux(suffix, expected_uti):
-    """Test uti_for_suffix on-Darwin code path even if running on macOS."""
+    """Test uti_for_suffix on non-Darwin code path even if running on macOS."""
     with patch("sys.platform", "linux"):
         assert uti_for_suffix(suffix) == expected_uti
 
@@ -70,3 +100,16 @@ def test_get_uti_for_suffix_linux(suffix, expected_uti):
 def test_uti_for_path(path, expected_uti):
     """Test uti_for_path."""
     assert uti_for_path(path) == expected_uti
+
+
+@pytest.mark.parametrize("uti, content_tree", UTI_CONTENT_TREE_DATA.items())
+def test_content_type_tree_for_uti(uti, content_tree):
+    """Test content_type_tree_for_uti"""
+    assert content_type_tree_for_uti(uti) == content_tree
+
+
+@pytest.mark.parametrize("uti, content_tree", UTI_CONTENT_TREE_DATA.items())
+def test_content_type_tree_for_uti_linux(uti, content_tree):
+    """Test content_type_tree_for_uti on non-Darwin code path even if running on macOS."""
+    with patch("sys.platform", "linux"):
+        assert content_type_tree_for_uti(uti) == content_tree

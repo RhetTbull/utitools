@@ -1,0 +1,3203 @@
+{
+    "public.c-source": [
+        "public.c-source",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.fortran-source": [
+        "public.fortran-source",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.c-header": [
+        "public.c-header",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.c-source.preprocessed": [
+        "public.c-source.preprocessed",
+        "public.source-code.preprocessed",
+        "public.c-source",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.content",
+        "public.item"
+    ],
+    "public.lex-source": [
+        "public.lex-source",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.objective-c-source": [
+        "public.objective-c-source",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.object-code": [
+        "public.object-code",
+        "public.data",
+        "public.item",
+        "public.executable"
+    ],
+    "com.apple.rez-source": [
+        "com.apple.rez-source",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.assembly-source": [
+        "public.assembly-source",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.yacc-source": [
+        "public.yacc-source",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.z-archive": [
+        "public.z-archive",
+        "public.data",
+        "public.item",
+        "public.archive"
+    ],
+    "com.audible.aa-audiobook": [
+        "com.audible.aa-audiobook",
+        "com.audible.aa-audio",
+        "public.audio",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.adobe.illustrator.ai-image": [
+        "com.adobe.illustrator.ai-image",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.applesingle-archive": [
+        "com.apple.applesingle-archive",
+        "public.data",
+        "public.item",
+        "public.archive"
+    ],
+    "public.au-audio": [
+        "public.au-audio",
+        "public.audio",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.bzip2-archive": [
+        "public.bzip2-archive",
+        "public.data",
+        "public.item",
+        "public.archive"
+    ],
+    "public.c-plus-plus-source": [
+        "public.c-plus-plus-source",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.opencl-source": [
+        "public.opencl-source",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.symantec.diskdoubler-archive": [],
+    "public.dv-movie": [
+        "public.dv-movie",
+        "public.movie",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.gnu.emacs-lisp": [],
+    "org.khronos.glsl.fragment-shader": [
+        "org.khronos.glsl.fragment-shader",
+        "org.khronos.glsl-source",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.khronos.glsl.geometry-shader": [
+        "org.khronos.glsl.geometry-shader",
+        "org.khronos.glsl-source",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.gnu.gnu-zip-archive": [
+        "org.gnu.gnu-zip-archive",
+        "public.data",
+        "public.item",
+        "public.archive"
+    ],
+    "public.c-plus-plus-header": [
+        "public.c-plus-plus-header",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.c-plus-plus-source.preprocessed": [
+        "public.c-plus-plus-source.preprocessed",
+        "public.source-code.preprocessed",
+        "public.c-plus-plus-source",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.videolan.it": [],
+    "com.netscape.javascript-source": [
+        "com.netscape.javascript-source",
+        "public.script",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.executable",
+        "public.item",
+        "public.content"
+    ],
+    "net.daringfireball.markdown": [
+        "net.daringfireball.markdown",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.objective-c-source.preprocessed": [
+        "public.objective-c-source.preprocessed",
+        "public.source-code.preprocessed",
+        "public.objective-c-source",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.make-source": [
+        "public.make-source",
+        "public.script",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.objective-c-plus-plus-source": [
+        "public.objective-c-plus-plus-source",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.intel.nw.app": [],
+    "com.apple.colorsync-profile": [
+        "com.apple.colorsync-profile",
+        "public.data",
+        "public.item"
+    ],
+    "public.perl-script": [
+        "public.perl-script",
+        "public.shell-script",
+        "public.script",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.content",
+        "public.item"
+    ],
+    "com.adobe.postscript": [
+        "com.adobe.postscript",
+        "public.data",
+        "public.composite-content",
+        "public.item",
+        "public.content"
+    ],
+    "public.python-script": [
+        "public.python-script",
+        "public.shell-script",
+        "public.script",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.content",
+        "public.item"
+    ],
+    "com.apple.quicktime-movie": [
+        "com.apple.quicktime-movie",
+        "public.movie",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.real.realaudio": [
+        "com.real.realaudio",
+        "public.audio",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.ruby-script": [
+        "public.ruby-script",
+        "public.shell-script",
+        "public.script",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.content",
+        "public.item"
+    ],
+    "com.real.realmedia": [
+        "com.real.realmedia",
+        "public.movie",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.shell-script": [
+        "public.shell-script",
+        "public.script",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.tascam.opentl": [],
+    "org.videolan.mpeg-stream": [],
+    "public.mpeg-2-transport-stream": [
+        "public.mpeg-2-transport-stream",
+        "public.movie",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.ulaw-audio": [
+        "public.ulaw-audio",
+        "public.audio",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.uuencoded-archive": [
+        "public.uuencoded-archive",
+        "public.data",
+        "public.item",
+        "public.archive"
+    ],
+    "org.khronos.glsl.vertex-shader": [
+        "org.khronos.glsl.vertex-shader",
+        "org.khronos.glsl-source",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.microsoft.windows-media-wm": [
+        "com.microsoft.windows-media-wm",
+        "public.movie",
+        "com.microsoft.advanced-systems-format",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.videolan.wv": [],
+    "org.videolan.xa": [],
+    "org.videolan.xm": [],
+    "org.tukaani.xz-archive": [
+        "org.tukaani.xz-archive",
+        "public.data",
+        "public.item",
+        "public.archive"
+    ],
+    "org.7-zip.7-zip-archive": [
+        "org.7-zip.7-zip-archive",
+        "public.data",
+        "public.item",
+        "public.archive"
+    ],
+    "public.aac-audio": [
+        "public.aac-audio",
+        "public.audio",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.photos.apple-adjustment-envelope": [
+        "com.apple.photos.apple-adjustment-envelope",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.aafassociation.advanced-authoring-format": [
+        "org.aafassociation.advanced-authoring-format",
+        "public.data",
+        "public.composite-content",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.archive": [
+        "com.apple.archive",
+        "public.data",
+        "public.item",
+        "public.archive"
+    ],
+    "com.audible.aax-audiobook": [
+        "com.audible.aax-audiobook",
+        "com.audible.aa-audio",
+        "public.audio",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.alembic": [
+        "public.alembic",
+        "public.data",
+        "public.3d-content",
+        "public.item",
+        "public.content"
+    ],
+    "public.ac3-audio": [
+        "public.ac3-audio",
+        "public.audio",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.ada-source": [
+        "public.ada-source",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.encrypted-archive": [
+        "com.apple.encrypted-archive",
+        "public.data",
+        "public.item",
+        "public.archive"
+    ],
+    "public.aiff-audio": [
+        "public.aiff-audio",
+        "public.aifc-audio",
+        "public.audio",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.3gpp.adaptive-multi-rate-audio": [
+        "org.3gpp.adaptive-multi-rate-audio",
+        "public.audio",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.videolan.aob": [],
+    "org.videolan.ape": [],
+    "com.apple.application-file": [
+        "com.apple.application-file",
+        "public.data",
+        "com.apple.application",
+        "public.executable",
+        "public.item"
+    ],
+    "org.7-zip.arj-archive": [],
+    "com.sony.arw-raw-image": [
+        "com.sony.arw-raw-image",
+        "public.camera-raw-image",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.microsoft.advanced-systems-format": [
+        "com.microsoft.advanced-systems-format",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.microsoft.advanced-stream-redirector": [
+        "com.microsoft.advanced-stream-redirector",
+        "public.xml",
+        "public.audiovisual-content",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.avi": [
+        "public.avi",
+        "public.movie",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.videolan.axa": [],
+    "org.videolan.axv": [],
+    "public.avchd-content": [
+        "public.avchd-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.macbinary-archive": [
+        "com.apple.macbinary-archive",
+        "public.data",
+        "public.item",
+        "public.archive"
+    ],
+    "com.microsoft.bmp": [
+        "com.microsoft.bmp",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.microsoft.waveform-audio": [
+        "com.microsoft.waveform-audio",
+        "public.audio",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.microsoft.cab": [
+        "com.microsoft.cab",
+        "public.data",
+        "public.item",
+        "public.archive"
+    ],
+    "com.apple.coreaudio-format": [
+        "com.apple.coreaudio-format",
+        "public.audio",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.macitbetter.cbr-archive": [],
+    "com.macitbetter.cbz-archive": [],
+    "com.apple.color-file": [
+        "com.apple.color-file",
+        "public.data",
+        "public.item"
+    ],
+    "com.dekorra.clarisdraw": [],
+    "com.apple.disk-image-cdr": [
+        "com.apple.disk-image-cdr",
+        "com.apple.disk-image",
+        "public.disk-image",
+        "public.data",
+        "public.item",
+        "public.archive"
+    ],
+    "public.flc-animation": [
+        "public.flc-animation",
+        "public.movie",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.x509-certificate": [
+        "public.x509-certificate",
+        "public.data",
+        "public.item"
+    ],
+    "com.microsoft.chm-archive": [],
+    "com.apple.clips-source": [
+        "com.apple.clips-source",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.canon.crw-raw-image": [
+        "com.canon.crw-raw-image",
+        "public.camera-raw-image",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.chromium.extension": [
+        "org.chromium.extension",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.canon.cr2-raw-image": [
+        "com.canon.cr2-raw-image",
+        "public.camera-raw-image",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.canon.cr3-raw-image": [
+        "com.canon.cr3-raw-image",
+        "public.camera-raw-image",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.csh-script": [
+        "public.csh-script",
+        "public.shell-script",
+        "public.script",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.content",
+        "public.item"
+    ],
+    "public.css": [
+        "public.css",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.logic.channelstripsetting": [],
+    "public.comma-separated-values-text": [
+        "public.comma-separated-values-text",
+        "public.plain-text",
+        "public.delimited-values-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.appleworks.document": [],
+    "org.khronos.collada.digital-asset-exchange": [
+        "org.khronos.collada.digital-asset-exchange",
+        "public.xml",
+        "public.audiovisual-content",
+        "public.text",
+        "public.data",
+        "public.3d-content",
+        "public.item",
+        "public.content"
+    ],
+    "com.microsoft.outlook.dat": [],
+    "org.nema.dicom": [
+        "org.nema.dicom",
+        "public.data",
+        "public.item"
+    ],
+    "com.kodak.raw-image": [
+        "com.kodak.raw-image",
+        "public.camera-raw-image",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.microsoft.dds": [
+        "com.microsoft.dds",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.debian.deb-archive": [],
+    "com.microsoft.word.dictionary": [
+        "com.microsoft.word.dictionary",
+        "public.data",
+        "public.item"
+    ],
+    "com.microsoft.windows-dynamic-link-library": [
+        "com.microsoft.windows-dynamic-link-library",
+        "public.data",
+        "public.item",
+        "public.executable"
+    ],
+    "public.downloadable-sound": [
+        "public.downloadable-sound",
+        "public.audio",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.disk-image-udif": [
+        "com.apple.disk-image-udif",
+        "com.apple.disk-image",
+        "public.disk-image",
+        "public.data",
+        "public.item",
+        "public.archive"
+    ],
+    "com.adobe.raw-image": [
+        "com.adobe.raw-image",
+        "public.camera-raw-image",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.microsoft.word.doc": [
+        "com.microsoft.word.doc",
+        "public.data",
+        "public.item"
+    ],
+    "com.microsoft.word.dot": [
+        "com.microsoft.word.dot",
+        "public.data",
+        "public.item"
+    ],
+    "org.videolan.dts": [],
+    "org.tug.tex.dvi": [],
+    "com.autodesk.dxf": [],
+    "com.dxo.raw-image": [
+        "com.dxo.raw-image",
+        "public.camera-raw-image",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.enhanced-ac3-audio": [
+        "public.enhanced-ac3-audio",
+        "public.audio",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.adobe.edn": [
+        "com.adobe.edn",
+        "public.data",
+        "public.item"
+    ],
+    "com.j2.efx-fax": [
+        "com.j2.efx-fax",
+        "public.fax",
+        "public.image",
+        "public.data",
+        "public.message",
+        "public.item",
+        "public.content"
+    ],
+    "org.python.python-egg": [],
+    "com.apple.mail.email": [
+        "com.apple.mail.email",
+        "public.data",
+        "public.email-message",
+        "public.item",
+        "public.message"
+    ],
+    "com.adobe.encapsulated-postscript": [
+        "com.adobe.encapsulated-postscript",
+        "com.adobe.postscript",
+        "public.data",
+        "public.composite-content",
+        "public.item",
+        "public.content"
+    ],
+    "com.epson.raw-image": [
+        "com.epson.raw-image",
+        "public.camera-raw-image",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.adobe.etd": [
+        "com.adobe.etd",
+        "public.data",
+        "public.item"
+    ],
+    "com.microsoft.windows-executable": [
+        "com.microsoft.windows-executable",
+        "public.data",
+        "public.item",
+        "public.executable"
+    ],
+    "com.apple.symbol-export": [
+        "com.apple.symbol-export",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.ilm.openexr-image": [
+        "com.ilm.openexr-image",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.logic.exs": [],
+    "com.adobe.fdf": [
+        "com.adobe.fdf",
+        "public.data",
+        "public.item"
+    ],
+    "com.hasselblad.fff-raw-image": [
+        "com.hasselblad.fff-raw-image",
+        "public.camera-raw-image",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.adobe.flash.video": [
+        "com.adobe.flash.video",
+        "public.movie",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.kodak.flashpix-image": [
+        "com.kodak.flashpix-image",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.fortran-77-source": [
+        "public.fortran-77-source",
+        "public.fortran-source",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.fortran-90-source": [
+        "public.fortran-90-source",
+        "public.fortran-source",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.fortran-95-source": [
+        "public.fortran-95-source",
+        "public.fortran-source",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.compuserve.gif": [
+        "com.compuserve.gif",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.topografix.gpx": [
+        "com.topografix.gpx",
+        "public.xml",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.videolan.gxf": [],
+    "com.parallels.vm.vmhdd": [],
+    "public.radiance": [
+        "public.radiance",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.heif": [
+        "public.heif",
+        "public.heif-standard",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.binhex-archive": [
+        "com.apple.binhex-archive",
+        "public.data",
+        "public.item",
+        "public.archive"
+    ],
+    "public.html": [
+        "public.html",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.ibooksauthor.book": [
+        "com.apple.ibooksauthor.book",
+        "public.data",
+        "public.composite-content",
+        "public.item",
+        "public.content"
+    ],
+    "com.microsoft.ico": [
+        "com.microsoft.ico",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.ical.ics": [
+        "com.apple.ical.ics",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content",
+        "public.calendar-event"
+    ],
+    "com.apple.iig-source": [
+        "com.apple.iig-source",
+        "public.c-source",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.phaseone.raw-image": [
+        "com.phaseone.raw-image",
+        "public.camera-raw-image",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.c-plus-plus-inline-header": [
+        "public.c-plus-plus-inline-header",
+        "public.c-plus-plus-header",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.itunes.ipa": [
+        "com.apple.itunes.ipa",
+        "public.data",
+        "public.item",
+        "public.executable"
+    ],
+    "com.apple.itunes.ipg": [],
+    "com.apple.ips": [
+        "com.apple.ips",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.iso-image": [
+        "public.iso-image",
+        "com.apple.disk-image",
+        "public.disk-image",
+        "public.data",
+        "public.item",
+        "public.archive"
+    ],
+    "com.apple.tv.ite": [
+        "com.apple.tv.ite",
+        "public.html",
+        "public.text",
+        "com.apple.package",
+        "public.directory",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.itunes.db": [
+        "com.apple.itunes.db",
+        "public.data",
+        "public.database",
+        "public.item"
+    ],
+    "com.sun.java-archive": [
+        "com.sun.java-archive",
+        "public.zip-archive",
+        "com.pkware.zip-archive",
+        "public.data",
+        "public.executable",
+        "public.item",
+        "public.archive"
+    ],
+    "com.sun.java-source": [
+        "com.sun.java-source",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.p5sys.jump.file.archive": [],
+    "com.j2.jfx-fax": [
+        "com.j2.jfx-fax",
+        "public.fax",
+        "public.image",
+        "public.data",
+        "public.message",
+        "public.item",
+        "public.content"
+    ],
+    "public.jpeg": [
+        "public.jpeg",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.jpeg-2000": [
+        "public.jpeg-2000",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.midi-audio": [
+        "public.midi-audio",
+        "public.audio",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.iwork.keynote.sffkey": [
+        "com.apple.iwork.keynote.sffkey",
+        "public.data",
+        "public.composite-content",
+        "public.presentation",
+        "public.item",
+        "public.content"
+    ],
+    "public.ksh-script": [
+        "public.ksh-script",
+        "public.shell-script",
+        "public.script",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.content",
+        "public.item"
+    ],
+    "com.apple.iwork.keynote.sffkth": [
+        "com.apple.iwork.keynote.sffkth",
+        "public.data",
+        "public.composite-content",
+        "public.presentation",
+        "public.item",
+        "public.content"
+    ],
+    "org.khronos.ktx": [
+        "org.khronos.ktx",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.7-zip.lha-archive": [],
+    "public.dylan-source": [
+        "public.dylan-source",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.log": [
+        "com.apple.log",
+        "public.plain-text",
+        "public.text",
+        "public.log",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.logic-song": [],
+    "com.apple.lsr-image": [
+        "com.apple.lsr-image",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.parallels.vm.vmmem": [],
+    "com.microsoft.word.mhtml": [
+        "com.microsoft.word.mhtml",
+        "public.data",
+        "public.item"
+    ],
+    "public.mig-source": [
+        "public.mig-source",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.objective-c-plus-plus-source.preprocessed": [
+        "public.objective-c-plus-plus-source.preprocessed",
+        "public.source-code.preprocessed",
+        "public.objective-c-plus-plus-source",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.matroska.mka": [],
+    "org.matroska.mkv": [],
+    "org.videolan.mlp": [],
+    "ca.mcgill.mni.bic.mnc": [
+        "ca.mcgill.mni.bic.mnc",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.videolan.mod": [],
+    "com.apple.xcode.mom": [
+        "com.apple.xcode.mom",
+        "public.data",
+        "public.item"
+    ],
+    "com.leafamerica.raw-image": [
+        "com.leafamerica.raw-image",
+        "public.camera-raw-image",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.videolan.mpc": [],
+    "public.mpeg": [
+        "public.mpeg",
+        "public.movie",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.mpo-image": [
+        "public.mpo-image",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.mp2": [
+        "public.mp2",
+        "public.audio",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.mp3": [
+        "public.mp3",
+        "public.audio",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.mpeg-4": [
+        "public.mpeg-4",
+        "public.movie",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.konicaminolta.raw-image": [
+        "com.konicaminolta.raw-image",
+        "public.camera-raw-image",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.avchd-mpeg-2-transport-stream": [
+        "public.avchd-mpeg-2-transport-stream",
+        "public.mpeg-2-transport-stream",
+        "public.movie",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.smpte.mxf": [
+        "org.smpte.mxf",
+        "public.movie",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.mpeg-2-video": [
+        "public.mpeg-2-video",
+        "public.video",
+        "public.movie",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.m3u-playlist": [
+        "public.m3u-playlist",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content",
+        "public.playlist"
+    ],
+    "com.apple.m4a-audio": [
+        "com.apple.m4a-audio",
+        "public.mpeg-4-audio",
+        "public.audio",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.protected-mpeg-4-audio-b": [
+        "com.apple.protected-mpeg-4-audio-b",
+        "com.apple.protected-mpeg-4-audio",
+        "public.audio",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.protected-mpeg-4-audio": [
+        "com.apple.protected-mpeg-4-audio",
+        "public.audio",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.mpeg-4-ringtone": [
+        "com.apple.mpeg-4-ringtone",
+        "public.mpeg-4-audio",
+        "public.audio",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.m4v-video": [
+        "com.apple.m4v-video",
+        "public.mpeg-4",
+        "public.movie",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.nikon.raw-image": [
+        "com.nikon.raw-image",
+        "public.camera-raw-image",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "gov.nih.nifti-1": [
+        "gov.nih.nifti-1",
+        "public.data",
+        "public.item"
+    ],
+    "com.nikon.nrw-raw-image": [
+        "com.nikon.nrw-raw-image",
+        "public.camera-raw-image",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.videolan.nsv": [],
+    "com.macitbetter.zip-archive": [],
+    "com.mythtv.nuv": [],
+    "com.apple.itunes.nvf": [],
+    "public.geometry-definition-format": [
+        "public.geometry-definition-format",
+        "public.text",
+        "public.data",
+        "public.3d-content",
+        "public.item",
+        "public.content"
+    ],
+    "org.oasis-open.opendocument.database": [
+        "org.oasis-open.opendocument.database",
+        "public.data",
+        "public.item",
+        "public.database",
+        "public.content"
+    ],
+    "org.oasis-open.opendocument.chart": [
+        "org.oasis-open.opendocument.chart",
+        "org.oasis-open.opendocument",
+        "public.data",
+        "public.composite-content",
+        "public.item",
+        "public.content"
+    ],
+    "org.oasis-open.opendocument.formula": [
+        "org.oasis-open.opendocument.formula",
+        "org.oasis-open.opendocument",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.oasis-open.opendocument.graphics": [
+        "org.oasis-open.opendocument.graphics",
+        "org.oasis-open.opendocument",
+        "public.data",
+        "public.composite-content",
+        "public.item",
+        "public.content"
+    ],
+    "org.oasis-open.opendocument.image": [
+        "org.oasis-open.opendocument.image",
+        "public.image",
+        "org.oasis-open.opendocument",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.oasis-open.opendocument.text-master": [
+        "org.oasis-open.opendocument.text-master",
+        "org.oasis-open.opendocument",
+        "public.data",
+        "public.composite-content",
+        "public.item",
+        "public.content"
+    ],
+    "org.oasis-open.opendocument.presentation": [
+        "org.oasis-open.opendocument.presentation",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.oasis-open.opendocument.spreadsheet": [
+        "org.oasis-open.opendocument.spreadsheet",
+        "org.oasis-open.opendocument",
+        "public.data",
+        "public.composite-content",
+        "public.item",
+        "public.spreadsheet",
+        "public.content"
+    ],
+    "org.oasis-open.opendocument.text": [
+        "org.oasis-open.opendocument.text",
+        "org.oasis-open.opendocument",
+        "public.data",
+        "public.composite-content",
+        "public.item",
+        "public.content"
+    ],
+    "public.ofd": [
+        "public.ofd",
+        "public.data",
+        "public.composite-content",
+        "public.item",
+        "public.content"
+    ],
+    "org.xiph.ogg-audio": [
+        "org.xiph.ogg-audio",
+        "public.audio",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.xiph.ogv": [
+        "org.xiph.ogv",
+        "public.movie",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.videolan.oma": [],
+    "com.avid.open-media-framework": [
+        "com.avid.open-media-framework",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.omnigroup.omnioutliner.oo3": [],
+    "com.olympus.raw-image": [
+        "com.olympus.raw-image",
+        "public.camera-raw-image",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.orgmode.org": [],
+    "public.opentype-collection-font": [
+        "public.opentype-collection-font",
+        "public.opentype-font",
+        "public.font",
+        "public.data",
+        "public.item"
+    ],
+    "public.opentype-font": [
+        "public.opentype-font",
+        "public.font",
+        "public.data",
+        "public.item"
+    ],
+    "org.oasis-open.opendocument.graphics-template": [
+        "org.oasis-open.opendocument.graphics-template",
+        "org.oasis-open.opendocument",
+        "public.data",
+        "public.composite-content",
+        "public.item",
+        "public.content"
+    ],
+    "org.oasis-open.opendocument.text-web": [
+        "org.oasis-open.opendocument.text-web",
+        "org.oasis-open.opendocument",
+        "public.data",
+        "public.composite-content",
+        "public.item",
+        "public.content"
+    ],
+    "org.oasis-open.opendocument.image-template": [
+        "org.oasis-open.opendocument.image-template",
+        "public.image",
+        "org.oasis-open.opendocument",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.oasis-open.opendocument.presentation-template": [
+        "org.oasis-open.opendocument.presentation-template",
+        "org.oasis-open.opendocument",
+        "public.data",
+        "public.composite-content",
+        "public.item",
+        "public.presentation",
+        "public.content"
+    ],
+    "org.oasis-open.opendocument.spreadsheet-template": [
+        "org.oasis-open.opendocument.spreadsheet-template",
+        "org.oasis-open.opendocument",
+        "public.data",
+        "public.composite-content",
+        "public.item",
+        "public.spreadsheet",
+        "public.content"
+    ],
+    "org.oasis-open.opendocument.text-template": [
+        "org.oasis-open.opendocument.text-template",
+        "org.oasis-open.opendocument",
+        "public.data",
+        "public.composite-content",
+        "public.item",
+        "public.content"
+    ],
+    "public.pascal-source": [
+        "public.pascal-source",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.cpio-archive": [
+        "public.cpio-archive",
+        "public.data",
+        "public.item",
+        "public.archive"
+    ],
+    "public.pbm": [
+        "public.pbm",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.precompiled-c-header": [
+        "public.precompiled-c-header",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.pict": [
+        "com.apple.pict",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.adobe.pdf": [
+        "com.adobe.pdf",
+        "public.data",
+        "public.composite-content",
+        "public.item",
+        "public.content"
+    ],
+    "com.pentax.raw-image": [
+        "com.pentax.raw-image",
+        "public.camera-raw-image",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.adobe.postscript-pfa-font": [
+        "com.adobe.postscript-pfa-font",
+        "com.adobe.postscript-font",
+        "public.font",
+        "public.data",
+        "public.item"
+    ],
+    "com.adobe.postscript-pfb-font": [
+        "com.adobe.postscript-pfb-font",
+        "com.adobe.postscript-font",
+        "public.font",
+        "public.data",
+        "public.item"
+    ],
+    "com.rsa.pkcs-12": [
+        "com.rsa.pkcs-12",
+        "public.data",
+        "public.item"
+    ],
+    "com.apple.chess.pgn": [
+        "com.apple.chess.pgn",
+        "public.utf8-plain-text",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.php-script": [
+        "public.php-script",
+        "public.shell-script",
+        "public.script",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.content",
+        "public.item"
+    ],
+    "com.apple.installer-package-archive": [
+        "com.apple.installer-package-archive",
+        "public.data",
+        "public.item",
+        "public.archive"
+    ],
+    "public.pls-playlist": [
+        "public.pls-playlist",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content",
+        "public.playlist"
+    ],
+    "public.polygon-file-format": [
+        "public.polygon-file-format",
+        "public.data",
+        "public.3d-content",
+        "public.item",
+        "public.content"
+    ],
+    "public.png": [
+        "public.png",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.microsoft.powerpoint.pot": [
+        "com.microsoft.powerpoint.pot",
+        "public.data",
+        "public.composite-content",
+        "public.presentation",
+        "public.item",
+        "public.content"
+    ],
+    "com.microsoft.powerpoint.ppa": [
+        "com.microsoft.powerpoint.ppa",
+        "public.data",
+        "public.item"
+    ],
+    "com.microsoft.powerpoint.pps": [
+        "com.microsoft.powerpoint.pps",
+        "public.data",
+        "public.composite-content",
+        "public.presentation",
+        "public.item",
+        "public.content"
+    ],
+    "com.microsoft.powerpoint.ppt": [
+        "com.microsoft.powerpoint.ppt",
+        "public.data",
+        "public.composite-content",
+        "public.presentation",
+        "public.item",
+        "public.content"
+    ],
+    "com.microsoft.excel.space-separated-values-text": [
+        "com.microsoft.excel.space-separated-values-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.adobe.photoshop-large-image": [
+        "com.adobe.photoshop-large-image",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.adobe.photoshop-image": [
+        "com.adobe.photoshop-image",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.logic.pluginsetting": [],
+    "public.pvr": [
+        "public.pvr",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.parallels.vm.vmconfig": [],
+    "com.leica.pwl-raw-image": [
+        "com.leica.pwl-raw-image",
+        "public.camera-raw-image",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.quicktime-image": [
+        "com.apple.quicktime-image",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.quartz-composer-composition": [
+        "com.apple.quartz-composer-composition",
+        "public.data",
+        "public.item",
+        "public.executable"
+    ],
+    "com.fuji.raw-image": [
+        "com.fuji.raw-image",
+        "public.camera-raw-image",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.rarlab.rar-archive": [],
+    "com.panasonic.raw-image": [
+        "com.panasonic.raw-image",
+        "public.camera-raw-image",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.p5sys.jump.file.rdp": [],
+    "org.videolan.rec": [],
+    "org.videolan.rmi": [],
+    "com.apple.music.rmp-playlist": [
+        "com.apple.music.rmp-playlist",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content",
+        "public.playlist"
+    ],
+    "com.redhat.rpm-archive": [],
+    "public.rss": [
+        "public.rss",
+        "public.xml",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.rtf": [
+        "public.rtf",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.leica.rwl-raw-image": [
+        "com.leica.rwl-raw-image",
+        "public.camera-raw-image",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.panasonic.rw2-raw-image": [
+        "com.panasonic.rw2-raw-image",
+        "public.camera-raw-image",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.parallels.vm.vmsav": [],
+    "com.scenarist.closed-caption": [
+        "com.scenarist.closed-caption",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.scenekit.scene": [
+        "com.apple.scenekit.scene",
+        "public.data",
+        "public.3d-content",
+        "public.item",
+        "public.content"
+    ],
+    "org.openoffice.graphics": [
+        "org.openoffice.graphics",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.openoffice.spreadsheet": [
+        "org.openoffice.spreadsheet",
+        "public.data",
+        "public.item",
+        "public.spreadsheet",
+        "public.content"
+    ],
+    "org.openoffice.presentation": [
+        "org.openoffice.presentation",
+        "public.data",
+        "public.composite-content",
+        "public.presentation",
+        "public.item",
+        "public.content"
+    ],
+    "public.3gpp": [
+        "public.3gpp",
+        "public.movie",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.openoffice.text": [
+        "org.openoffice.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.digidesign.sd2-audio": [
+        "com.digidesign.sd2-audio",
+        "public.audio",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.stuffit.archive.sit": [
+        "com.stuffit.archive.sit",
+        "com.allume.stuffit-archive",
+        "public.data",
+        "public.item",
+        "public.archive"
+    ],
+    "com.soundblaster.soundfont": [
+        "com.soundblaster.soundfont",
+        "public.audio",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.sgi.sgi-image": [
+        "com.sgi.sgi-image",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.spritekit.serialized": [
+        "com.apple.spritekit.serialized",
+        "public.data",
+        "public.item"
+    ],
+    "com.microsoft.excel.slk": [
+        "com.microsoft.excel.slk",
+        "public.data",
+        "public.item"
+    ],
+    "com.apple.photos.slow-motion-video-sidecar": [
+        "com.apple.photos.slow-motion-video-sidecar",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.logic.notator": [],
+    "com.apple.systemprofiler.document": [
+        "com.apple.systemprofiler.document",
+        "public.xml",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.sony.raw-image": [
+        "com.sony.raw-image",
+        "public.camera-raw-image",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.samsung.raw-image": [
+        "com.samsung.raw-image",
+        "public.camera-raw-image",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.sony.sr2-raw-image": [
+        "com.sony.sr2-raw-image",
+        "public.camera-raw-image",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.openoffice.spreadsheet-template": [
+        "org.openoffice.spreadsheet-template",
+        "public.data",
+        "public.item",
+        "public.spreadsheet",
+        "public.content"
+    ],
+    "org.openoffice.graphics-template": [
+        "org.openoffice.graphics-template",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.openoffice.presentation-template": [
+        "org.openoffice.presentation-template",
+        "public.data",
+        "public.composite-content",
+        "public.presentation",
+        "public.item",
+        "public.content"
+    ],
+    "public.standard-tesselated-geometry-format": [
+        "public.standard-tesselated-geometry-format",
+        "public.data",
+        "public.3d-content",
+        "public.item",
+        "public.content"
+    ],
+    "org.openoffice.text-template": [
+        "org.openoffice.text-template",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.svg-image": [
+        "public.svg-image",
+        "public.xml",
+        "public.image",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.openoffice.text-master": [
+        "org.openoffice.text-master",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.openoffice.formula": [
+        "org.openoffice.formula",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.videolan.s3m": [],
+    "public.tar-archive": [
+        "public.tar-archive",
+        "org.gnu.gnu-tar-archive",
+        "public.data",
+        "public.item",
+        "public.archive"
+    ],
+    "com.apple.text-based-dylib": [
+        "com.apple.text-based-dylib",
+        "public.yaml",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.eastgate.tinderbox": [],
+    "public.tar-bzip2-archive": [
+        "public.tar-bzip2-archive",
+        "public.bzip2-archive",
+        "public.data",
+        "public.item",
+        "public.archive"
+    ],
+    "org.bzip.bzip2-archive": [],
+    "com.truevision.tga-image": [
+        "com.truevision.tga-image",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.gnu.gnu-zip-tar-archive": [
+        "org.gnu.gnu-zip-tar-archive",
+        "org.gnu.gnu-zip-archive",
+        "public.data",
+        "public.item",
+        "public.archive"
+    ],
+    "public.tiff": [
+        "public.tiff",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.videolan.tod": [],
+    "public.tab-separated-values-text": [
+        "public.tab-separated-values-text",
+        "public.plain-text",
+        "public.delimited-values-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.microsoft.typescript": [
+        "com.microsoft.typescript",
+        "public.script",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.videolan.tta": [],
+    "public.truetype-collection-font": [
+        "public.truetype-collection-font",
+        "public.truetype-font",
+        "public.font",
+        "public.data",
+        "public.item"
+    ],
+    "public.truetype-ttf-font": [
+        "public.truetype-ttf-font",
+        "public.truetype-font",
+        "public.font",
+        "public.data",
+        "public.item"
+    ],
+    "public.plain-text": [
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.tukaani.tar-xz-archive": [
+        "org.tukaani.tar-xz-archive",
+        "public.data",
+        "public.item",
+        "public.archive"
+    ],
+    "com.microsoft.internet-shortcut": [
+        "com.microsoft.internet-shortcut",
+        "public.data",
+        "public.stored-url",
+        "public.item"
+    ],
+    "com.pixar.universal-scene-description": [
+        "com.pixar.universal-scene-description",
+        "public.data",
+        "public.3d-content",
+        "public.item",
+        "public.content"
+    ],
+    "public.vcard": [
+        "public.vcard",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content",
+        "public.contact"
+    ],
+    "com.apple.ical.vcs": [
+        "com.apple.ical.vcs",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content",
+        "public.calendar-event"
+    ],
+    "org.videolan.vlc": [],
+    "org.videolan.vob": [],
+    "org.videolan.voc": [],
+    "org.videolan.vqf": [],
+    "org.videolan.vro": [],
+    "org.w3.webvtt": [
+        "org.w3.webvtt",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.sun.web-application-archive": [
+        "com.sun.web-application-archive",
+        "com.sun.java-archive",
+        "public.zip-archive",
+        "com.pkware.zip-archive",
+        "public.data",
+        "public.executable",
+        "public.item",
+        "public.archive"
+    ],
+    "com.microsoft.windows-media-wax": [
+        "com.microsoft.windows-media-wax",
+        "com.microsoft.advanced-stream-redirector",
+        "public.audio",
+        "public.xml",
+        "public.audiovisual-content",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.getdropbox.dropbox.shortcut": [],
+    "com.microsoft.windows-media-wma": [
+        "com.microsoft.windows-media-wma",
+        "com.microsoft.advanced-systems-format",
+        "public.audio",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.microsoft.windows-media-wmp": [
+        "com.microsoft.windows-media-wmp",
+        "public.movie",
+        "com.microsoft.advanced-systems-format",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.microsoft.windows-media-wmv": [
+        "com.microsoft.windows-media-wmv",
+        "public.movie",
+        "com.microsoft.advanced-systems-format",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.microsoft.windows-media-wmx": [
+        "com.microsoft.windows-media-wmx",
+        "com.microsoft.advanced-stream-redirector",
+        "public.movie",
+        "public.xml",
+        "public.audiovisual-content",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.videolan.wtv": [],
+    "com.microsoft.windows-media-wvx": [
+        "com.microsoft.windows-media-wvx",
+        "com.microsoft.advanced-stream-redirector",
+        "public.movie",
+        "public.xml",
+        "public.audiovisual-content",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.sony.wave64": [
+        "com.sony.wave64",
+        "public.audio",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.xar-archive": [
+        "com.apple.xar-archive",
+        "public.data",
+        "public.item",
+        "public.archive"
+    ],
+    "public.xbitmap-image": [
+        "public.xbitmap-image",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.tug.tex.xdv": [],
+    "public.xfd": [
+        "public.xfd",
+        "public.xml",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.xhtml": [
+        "public.xhtml",
+        "public.xml",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.interfacebuilder.document.cocoa": [
+        "com.apple.interfacebuilder.document.cocoa",
+        "public.xml",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.xip-archive": [
+        "com.apple.xip-archive",
+        "com.apple.xar-archive",
+        "public.data",
+        "public.item",
+        "public.archive"
+    ],
+    "com.microsoft.excel.xla": [
+        "com.microsoft.excel.xla",
+        "public.data",
+        "public.item"
+    ],
+    "com.microsoft.excel.xlb": [
+        "com.microsoft.excel.xlb",
+        "public.data",
+        "public.item"
+    ],
+    "com.microsoft.excel.xld": [
+        "com.microsoft.excel.xld",
+        "public.data",
+        "public.item"
+    ],
+    "org.oasis-open.xliff": [
+        "org.oasis-open.xliff",
+        "public.xml",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.microsoft.excel.xll": [
+        "com.microsoft.excel.xll",
+        "public.data",
+        "public.item"
+    ],
+    "com.microsoft.excel.xlm": [
+        "com.microsoft.excel.xlm",
+        "public.data",
+        "public.item"
+    ],
+    "com.microsoft.excel.xls": [
+        "com.microsoft.excel.xls",
+        "public.data",
+        "public.composite-content",
+        "public.item",
+        "public.spreadsheet",
+        "public.content"
+    ],
+    "com.microsoft.excel.xlt": [
+        "com.microsoft.excel.xlt",
+        "public.data",
+        "public.item",
+        "public.spreadsheet",
+        "public.content"
+    ],
+    "com.microsoft.excel.xlw": [
+        "com.microsoft.excel.xlw",
+        "public.data",
+        "public.item",
+        "public.spreadsheet",
+        "public.content"
+    ],
+    "public.xml": [
+        "public.xml",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.seriflabs.xmp": [
+        "com.seriflabs.xmp",
+        "public.xml",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.yaml": [
+        "public.yaml",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.zip-archive": [
+        "public.zip-archive",
+        "com.pkware.zip-archive",
+        "public.data",
+        "public.item",
+        "public.archive"
+    ],
+    "public.zsh-script": [
+        "public.zsh-script",
+        "public.shell-script",
+        "public.script",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.content",
+        "public.item"
+    ],
+    "com.macitbetter.segmented-archive": [],
+    "com.hasselblad.3fr-raw-image": [
+        "com.hasselblad.3fr-raw-image",
+        "public.camera-raw-image",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.3gpp2": [
+        "public.3gpp2",
+        "public.movie",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.haptics.ahap": [
+        "com.apple.haptics.ahap",
+        "public.json",
+        "public.text",
+        "public.data",
+        "public.content",
+        "public.item",
+        "public.haptics-content"
+    ],
+    "public.aifc-audio": [
+        "public.aifc-audio",
+        "public.audio",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.dt.document.apns": [
+        "com.apple.dt.document.apns",
+        "public.json",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.disk-image-sparse": [
+        "com.apple.disk-image-sparse",
+        "com.apple.disk-image",
+        "public.disk-image",
+        "public.data",
+        "public.item",
+        "public.archive"
+    ],
+    "org.khronos.astc": [
+        "org.khronos.astc",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.trace": [
+        "com.apple.trace",
+        "public.data",
+        "public.item"
+    ],
+    "public.avci": [
+        "public.avci",
+        "public.heif-standard",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.avcs": [
+        "public.avcs",
+        "public.heif-standard",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.avif": [
+        "public.avif",
+        "public.heif-standard",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.bash-script": [
+        "public.bash-script",
+        "public.shell-script",
+        "public.script",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.content",
+        "public.item"
+    ],
+    "public.cdda-audio": [
+        "public.cdda-audio",
+        "public.aifc-audio",
+        "public.audio",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.ichat.transcript": [],
+    "com.apple.bom-compressed-cpio": [
+        "com.apple.bom-compressed-cpio",
+        "com.apple.bom-archive",
+        "public.data",
+        "public.item",
+        "public.archive"
+    ],
+    "com.econtechnologies.chronosync.document.container": [],
+    "org.khronos.glsl.tess-control-shader": [
+        "org.khronos.glsl.tess-control-shader",
+        "org.khronos.glsl-source",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.dekorra.macdrawpro": [],
+    "public.patch-file": [
+        "public.patch-file",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.videolan.divx": [],
+    "org.openxmlformats.wordprocessingml.document.macroenabled": [
+        "org.openxmlformats.wordprocessingml.document.macroenabled",
+        "org.openxmlformats.openxml",
+        "public.data",
+        "public.composite-content",
+        "public.executable",
+        "public.item",
+        "public.content"
+    ],
+    "org.openxmlformats.wordprocessingml.document": [
+        "org.openxmlformats.wordprocessingml.document",
+        "org.openxmlformats.openxml",
+        "public.data",
+        "public.composite-content",
+        "public.item",
+        "public.content"
+    ],
+    "org.openxmlformats.wordprocessingml.template.macroenabled": [
+        "org.openxmlformats.wordprocessingml.template.macroenabled",
+        "org.openxmlformats.openxml",
+        "public.data",
+        "public.composite-content",
+        "public.executable",
+        "public.item",
+        "public.content"
+    ],
+    "org.openxmlformats.wordprocessingml.template": [
+        "org.openxmlformats.wordprocessingml.template",
+        "org.openxmlformats.openxml",
+        "public.data",
+        "public.composite-content",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.logic.dpst": [],
+    "com.dekorra.macdrawii": [],
+    "ch.sudo.cyberduck.bookmark": [],
+    "com.apple.mail.emlx": [
+        "com.apple.mail.emlx",
+        "public.data",
+        "public.email-message",
+        "public.item",
+        "public.message"
+    ],
+    "com.evernote.enex": [
+        "com.evernote.enex",
+        "public.xml",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.idpf.epub-container": [
+        "org.idpf.epub-container",
+        "public.data",
+        "public.composite-content",
+        "public.item",
+        "public.content"
+    ],
+    "org.khronos.glsl.tess-evaluation-shader": [
+        "org.khronos.glsl.tess-evaluation-shader",
+        "org.khronos.glsl-source",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.seriflabs.affinity": [
+        "com.seriflabs.affinity",
+        "public.data",
+        "public.item"
+    ],
+    "org.xiph.flac": [
+        "org.xiph.flac",
+        "public.audio",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.chess.game": [
+        "com.apple.chess.game",
+        "public.utf8-plain-text",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.google.gdoc": [],
+    "org.khronos.glsl-source": [
+        "org.khronos.glsl-source",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.gnu.gnu-tar-archive": [
+        "org.gnu.gnu-tar-archive",
+        "public.data",
+        "public.item",
+        "public.archive"
+    ],
+    "com.apple.hangreport": [
+        "com.apple.hangreport",
+        "public.utf8-plain-text",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.log",
+        "public.item",
+        "public.content"
+    ],
+    "public.heic": [
+        "public.heic",
+        "public.heif-standard",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.microsoft.hlsl": [
+        "com.microsoft.hlsl",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.ical.backup-package": [
+        "com.apple.ical.backup-package",
+        "com.apple.package",
+        "public.data",
+        "public.directory",
+        "public.item"
+    ],
+    "com.apple.icns": [
+        "com.apple.icns",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.dekorra.clarisdrawlib": [],
+    "com.apple.itunes.ipsw": [
+        "com.apple.itunes.ipsw",
+        "public.data",
+        "public.item",
+        "public.executable"
+    ],
+    "com.apple.music.itlp": [
+        "com.apple.music.itlp",
+        "public.html",
+        "public.text",
+        "com.apple.package",
+        "public.directory",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.itunes.store-url": [
+        "com.apple.itunes.store-url",
+        "public.url",
+        "public.data",
+        "public.item"
+    ],
+    "com.apple.itunes.podcast": [],
+    "com.sun.java-web-start": [
+        "com.sun.java-web-start",
+        "public.xml",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.json": [
+        "public.json",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.p5sys.jump.file.jump": [],
+    "com.apple.iwork.keynote.kpdc": [],
+    "public.mp4a-loas": [
+        "public.mp4a-loas",
+        "public.audio",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.c-command.mbox": [
+        "com.c-command.mbox",
+        "public.data",
+        "public.item"
+    ],
+    "org.materialx.mtlx": [
+        "org.materialx.mtlx",
+        "public.xml",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.nasm-assembly-source": [
+        "public.nasm-assembly-source",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.7-zip.nsis-archive": [],
+    "org.opml.opml": [
+        "org.opml.opml",
+        "public.xml",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.xiph.opus": [],
+    "com.apple.macpaint-image": [
+        "com.apple.macpaint-image",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.openxmlformats.presentationml.template.macroenabled": [
+        "org.openxmlformats.presentationml.template.macroenabled",
+        "org.openxmlformats.openxml",
+        "public.data",
+        "public.composite-content",
+        "public.presentation",
+        "public.item",
+        "public.content",
+        "public.executable"
+    ],
+    "org.openxmlformats.presentationml.template": [
+        "org.openxmlformats.presentationml.template",
+        "org.openxmlformats.openxml",
+        "public.data",
+        "public.composite-content",
+        "public.presentation",
+        "public.item",
+        "public.content"
+    ],
+    "com.microsoft.powerpoint.ppam": [
+        "com.microsoft.powerpoint.ppam",
+        "public.data",
+        "public.item"
+    ],
+    "org.openxmlformats.presentationml.slideshow.macroenabled": [
+        "org.openxmlformats.presentationml.slideshow.macroenabled",
+        "org.openxmlformats.openxml",
+        "public.data",
+        "public.composite-content",
+        "public.presentation",
+        "public.item",
+        "public.content",
+        "public.executable"
+    ],
+    "org.openxmlformats.presentationml.slideshow": [
+        "org.openxmlformats.presentationml.slideshow",
+        "org.openxmlformats.openxml",
+        "public.data",
+        "public.composite-content",
+        "public.presentation",
+        "public.item",
+        "public.content"
+    ],
+    "org.openxmlformats.presentationml.presentation.macroenabled": [
+        "org.openxmlformats.presentationml.presentation.macroenabled",
+        "org.openxmlformats.openxml",
+        "public.data",
+        "public.composite-content",
+        "public.presentation",
+        "public.item",
+        "public.content",
+        "public.executable"
+    ],
+    "org.openxmlformats.presentationml.presentation": [
+        "org.openxmlformats.presentationml.presentation",
+        "org.openxmlformats.openxml",
+        "public.data",
+        "public.composite-content",
+        "public.presentation",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.pdf-printer-settings": [
+        "com.apple.pdf-printer-settings",
+        "public.data",
+        "public.item"
+    ],
+    "com.real.realmedia-vbr": [
+        "com.real.realmedia-vbr",
+        "public.movie",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.scenekit.particlesystem": [
+        "com.apple.scenekit.particlesystem",
+        "public.data",
+        "public.item"
+    ],
+    "com.apple.applescript.script": [
+        "com.apple.applescript.script",
+        "public.script",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.scripting-definition": [
+        "com.apple.scripting-definition",
+        "public.xml",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.logic.impulseresponse": [],
+    "com.stuffit.archive.sidx": [
+        "com.stuffit.archive.sidx",
+        "com.allume.stuffit-archive",
+        "public.data",
+        "public.item",
+        "public.archive"
+    ],
+    "com.stuffit.archive.sitx": [
+        "com.stuffit.archive.sitx",
+        "com.allume.stuffit-archive",
+        "public.data",
+        "public.item",
+        "public.archive"
+    ],
+    "net.sourceforge.skim-app.skimnotes": [],
+    "com.apple.spinreport": [
+        "com.apple.spinreport",
+        "public.utf8-plain-text",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.log",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.font-suitcase": [
+        "com.apple.font-suitcase",
+        "public.font",
+        "public.data",
+        "public.item"
+    ],
+    "com.econtechnologies.chronosync.document.sync": [],
+    "public.tcsh-script": [
+        "public.tcsh-script",
+        "public.shell-script",
+        "public.script",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.content",
+        "public.item"
+    ],
+    "com.apple.terminal.session": [
+        "com.apple.terminal.session",
+        "public.data",
+        "public.item"
+    ],
+    "com.microsoft.office.openxml.theme": [
+        "com.microsoft.office.openxml.theme",
+        "public.data",
+        "public.item"
+    ],
+    "com.apple.terminal.shell-script": [
+        "com.apple.terminal.shell-script",
+        "public.shell-script",
+        "public.script",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.content",
+        "public.item"
+    ],
+    "com.apple.tv.database": [
+        "com.apple.tv.database",
+        "public.data",
+        "public.database",
+        "public.item"
+    ],
+    "com.pixar.universal-scene-description-utf8": [
+        "com.pixar.universal-scene-description-utf8",
+        "public.utf8-plain-text",
+        "com.pixar.universal-scene-description",
+        "public.plain-text",
+        "public.text",
+        "public.3d-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.pixar.universal-scene-description-mobile": [
+        "com.pixar.universal-scene-description-mobile",
+        "public.data",
+        "public.3d-content",
+        "public.item",
+        "public.content"
+    ],
+    "org.webmproject.webm": [
+        "org.webmproject.webm",
+        "public.movie",
+        "public.audiovisual-content",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.webmproject.webp": [
+        "org.webmproject.webp",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "org.videolan.xesc": [],
+    "com.adobe.xfdf": [
+        "com.adobe.xfdf",
+        "public.data",
+        "public.composite-content",
+        "public.item",
+        "public.content"
+    ],
+    "com.microsoft.excel.openxml.addin": [
+        "com.microsoft.excel.openxml.addin",
+        "public.data",
+        "public.item"
+    ],
+    "com.microsoft.excel.sheet.binary.macroenabled": [
+        "com.microsoft.excel.sheet.binary.macroenabled",
+        "public.data",
+        "public.item"
+    ],
+    "org.openxmlformats.spreadsheetml.sheet.macroenabled": [
+        "org.openxmlformats.spreadsheetml.sheet.macroenabled",
+        "org.openxmlformats.openxml",
+        "public.data",
+        "public.composite-content",
+        "public.executable",
+        "public.item",
+        "public.content",
+        "public.spreadsheet"
+    ],
+    "org.openxmlformats.spreadsheetml.sheet": [
+        "org.openxmlformats.spreadsheetml.sheet",
+        "org.openxmlformats.openxml",
+        "public.data",
+        "public.composite-content",
+        "public.item",
+        "public.content",
+        "public.spreadsheet"
+    ],
+    "org.openxmlformats.spreadsheetml.template.macroenabled": [
+        "org.openxmlformats.spreadsheetml.template.macroenabled",
+        "org.openxmlformats.openxml",
+        "public.data",
+        "public.composite-content",
+        "public.executable",
+        "public.item",
+        "public.content",
+        "public.spreadsheet"
+    ],
+    "org.openxmlformats.spreadsheetml.template": [
+        "org.openxmlformats.spreadsheetml.template",
+        "org.openxmlformats.openxml",
+        "public.data",
+        "public.composite-content",
+        "public.item",
+        "public.content",
+        "public.spreadsheet"
+    ],
+    "com.apple.addressbook.group": [
+        "com.apple.addressbook.group",
+        "public.data",
+        "public.item"
+    ],
+    "com.apple.addressbook.person": [
+        "com.apple.addressbook.person",
+        "public.data",
+        "public.contact",
+        "public.item"
+    ],
+    "com.seriflabs.affinitypublisher.document": [
+        "com.seriflabs.affinitypublisher.document",
+        "public.data",
+        "public.item"
+    ],
+    "com.apple.preview.blank": [
+        "com.apple.preview.blank",
+        "public.data",
+        "public.item"
+    ],
+    "com.apple.freeform.board": [
+        "com.apple.freeform.board",
+        "public.data",
+        "public.composite-content",
+        "public.item",
+        "public.content"
+    ],
+    "com.sun.java-class": [
+        "com.sun.java-class",
+        "public.data",
+        "public.item",
+        "public.executable"
+    ],
+    "com.apple.crashreport": [
+        "com.apple.crashreport",
+        "public.utf8-plain-text",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.log",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.truetype-datafork-suitcase-font": [
+        "com.apple.truetype-datafork-suitcase-font",
+        "public.truetype-font",
+        "public.font",
+        "public.data",
+        "public.item"
+    ],
+    "com.apple.mach-o-dylib": [
+        "com.apple.mach-o-dylib",
+        "com.apple.mach-o-binary",
+        "public.unix-executable",
+        "public.data",
+        "public.executable",
+        "public.item"
+    ],
+    "com.apple.documentation.guide": [
+        "com.apple.documentation.guide",
+        "net.daringfireball.markdown",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.heics": [
+        "public.heics",
+        "public.heif-standard",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.heifs": [
+        "public.heifs",
+        "public.heif-standard",
+        "public.image",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.metal": [
+        "com.apple.metal",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.xcode.projectdata": [
+        "com.apple.xcode.projectdata",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.iwork.pages.sffpages": [
+        "com.apple.iwork.pages.sffpages",
+        "public.data",
+        "public.composite-content",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.panicreport": [
+        "com.apple.panicreport",
+        "public.utf8-plain-text",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.log",
+        "public.item",
+        "public.content"
+    ],
+    "com.getdropbox.dropbox.paper": [],
+    "com.postbox-inc.postbox.pbeml": [],
+    "com.apple.property-list": [
+        "com.apple.property-list",
+        "public.data",
+        "public.item"
+    ],
+    "public.protobuf-source": [
+        "public.protobuf-source",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.cfr-font": [
+        "com.apple.cfr-font",
+        "public.font",
+        "public.data",
+        "public.item"
+    ],
+    "public.swift-source": [
+        "public.swift-source",
+        "public.source-code",
+        "public.plain-text",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.roxio.disk-image-toast": [
+        "com.roxio.disk-image-toast",
+        "com.apple.disk-image",
+        "public.disk-image",
+        "public.data",
+        "public.item",
+        "public.archive"
+    ],
+    "com.apple.wireless-diagnostics.wdmon": [
+        "com.apple.wireless-diagnostics.wdmon",
+        "public.data",
+        "public.item"
+    ],
+    "com.apple.shortcuts.workflow-file": [
+        "com.apple.shortcuts.workflow-file",
+        "com.apple.property-list",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.afp-internet-location": [
+        "com.apple.afp-internet-location",
+        "com.apple.internet-location",
+        "public.data",
+        "public.stored-url",
+        "public.item"
+    ],
+    "com.getdropbox.dropbox.binder": [],
+    "com.apple.finalcutpro.colorboard": [],
+    "com.microsoft.outlook.template": [
+        "com.microsoft.outlook.template",
+        "public.data",
+        "public.email-message",
+        "public.item",
+        "public.message"
+    ],
+    "com.evernote.note-metadata2": [],
+    "com.dekorra.eazydraw.graphic": [],
+    "com.apple.finalcutpro.xml": [],
+    "com.apple.ftp-internet-location": [
+        "com.apple.ftp-internet-location",
+        "com.apple.internet-location",
+        "public.data",
+        "public.stored-url",
+        "public.item"
+    ],
+    "com.google.gsheet": [],
+    "com.apple.ibooks-container": [
+        "com.apple.ibooks-container",
+        "public.data",
+        "public.composite-content",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.icloud-file-fault": [
+        "com.apple.icloud-file-fault",
+        "public.data",
+        "public.item"
+    ],
+    "com.apple.iphoto.ipmeta": [
+        "com.apple.iphoto.ipmeta",
+        "public.data",
+        "public.item"
+    ],
+    "com.apple.iphoto.ipspot": [
+        "com.apple.iphoto.ipspot",
+        "public.data",
+        "public.item"
+    ],
+    "com.apple.ktrace": [
+        "com.apple.ktrace",
+        "com.apple.trace",
+        "public.data",
+        "public.item"
+    ],
+    "com.advenio.macgourmet-spotlight-metadata": [],
+    "com.apple.createml.project": [
+        "com.apple.createml.project",
+        "com.apple.package",
+        "public.data",
+        "public.directory",
+        "public.item",
+        "public.content"
+    ],
+    "com.apple.mobileconfig": [
+        "com.apple.mobileconfig",
+        "public.xml",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "public.ndjson": [
+        "public.ndjson",
+        "public.text",
+        "public.data",
+        "public.item",
+        "public.content"
+    ],
+    "com.getdropbox.dropbox.papert": [],
+    "com.apple.pkpass-data": [
+        "com.apple.pkpass-data",
+        "public.data",
+        "public.item"
+    ],
+    "com.apple.vnc-internet-location": [
+        "com.apple.vnc-internet-location",
+        "com.apple.internet-location",
+        "public.data",
+        "public.stored-url",
+        "public.item"
+    ],
+    "com.apple.web-internet-location": [
+        "com.apple.web-internet-location",
+        "com.apple.internet-location",
+        "public.data",
+        "public.stored-url",
+        "public.item"
+    ]
+}
