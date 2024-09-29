@@ -13,6 +13,7 @@ UTI_SUFFIX = [
         "public.heic",
         ".heic",
     ),  # heic is a special case on macOS <= 10.12 which don't recognize heic format
+    ("com.canon.cr2-raw-image", ".cr2"),
     ("public.unknown", None),  # Invalid/unknown UTI
     ("", None),
     ("!@#$%^&*", None),  # Unusual symbols as input
@@ -26,6 +27,7 @@ SUFFIX_UTI = [
         ".heic",
         "public.heic",
     ),  # heic is a special case on macOS <= 10.12 which don't recognize heic format
+    ("cr2", "com.canon.cr2-raw-image"),
     ("unknown", None),  # Unknown suffix
     ("", None),  # Empty string
     ("!@#$%^&*", None),  # Unusual symbols as input
