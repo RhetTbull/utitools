@@ -116,7 +116,7 @@ def uti_for_suffix(suffix: str) -> str | None:
     return _uti_for_suffix_darwin_12(suffix)
 
 
-def uti_for_path(path: str | pathlib.Path | os.PathLike) -> str | None:
+def uti_for_path(path: str | os.PathLike) -> str | None:
     """Get UTI for a file at given path or None if UTI cannot be determined"""
     path = path if isinstance(path, pathlib.Path) else pathlib.Path(path)
     return uti_for_suffix(path.suffix)

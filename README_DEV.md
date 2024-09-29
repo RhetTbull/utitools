@@ -21,7 +21,9 @@ Build docs with `mkdocs build` then deploy to GitHub pages with `mkdocs gh-deplo
 
 ## Testing
 
-Run tests with `pytest`.  The test suite will modify your system Photo's library but will delete all assets it creates when the test suite is complete. The test suite is interactive and needs to ask you to confirm some actions; it cannot be run unattended. See [tests/README.md](tests/README.md) for more information.
+Testing uses pytest. Use --doctest-glob to include the README.md file.
+
+- `pytest --doctest-glob="*.md"`
 
 ## Publishing to PyPI
 

@@ -48,47 +48,40 @@ Here are the available functions:
 
 Get the UTI for a given file suffix.
 
-- **Input**: The file suffix (e.g., `'jpg'`, `'heic'`), with or without the leading period (`.`).
-- **Output**: The corresponding UTI as a string or `None` if it cannot be determined.
-
-```python
-from utitools import uti_for_suffix
-
-uti = uti_for_suffix('jpg')
-print(uti)  # Example: 'public.jpeg'
+```pycon
+>>> from utitools import uti_for_suffix
+>>> uti_for_suffix(".jpeg")
+'public.jpeg'
+>>> uti_for_suffix("jpg")
+'public.jpeg'
+>>>
 ```
 
 ### 2. `preferred_suffix_for_uti(uti: str) -> str | None`
 
 Get the preferred file extension for a given UTI.
 
-- **Input**: The UTI string (e.g., `'public.jpeg'`).
-- **Output**: The corresponding preferred file extension, with the leading period (e.g., `'.jpeg'`), or `None` if it cannot be determined.
-
-```python
-from utitools import preferred_suffix_for_uti
-
-ext = preferred_suffix_for_uti('public.jpeg')
-print(ext)  # Example: '.jpeg'
+```pycon
+>>> from utitools import preferred_suffix_for_uti
+>>> preferred_suffix_for_uti("public.jpeg")
+'.jpeg'
+>>>
 ```
 
-### 3. `uti_for_path(path: str | pathlib.Path | os.PathLike) -> str | None`
+### 3. `def uti_for_path(path: str | os.PathLike) -> str | None`
 
 Get the UTI for a file at the given path based on its file extension.
 
-- **Input**: A file path as a string, `pathlib.Path`, or any object implementing `os.PathLike`.
-- **Output**: The UTI for the file or `None` if it cannot be determined.
-
-```python
-from utitools import uti_for_path
-
-uti = uti_for_path('/path/to/file.jpg')
-print(uti)  # Example: 'public.jpeg'
+```pycon
+>>> from utitools import uti_for_path
+>>> uti_for_path("/tmp/screenshot.png")
+'public.png'
+>>>
 ```
 
 ## macOS Version Compatibility
 
-The behavior of `utitools` changes depending on the macOS version:
+The code path of `utitools` changes depending on the macOS version:
 
 - **macOS ≤ 11 (Big Sur)**: Uses the deprecated methods `UTTypeCopyPreferredTagWithClass` and `UTTypeCreatePreferredIdentifierForTag` from `CoreServices`.
 - **macOS ≥ 12 (Monterey)**: Uses the modern `UniformTypeIdentifiers` module.
