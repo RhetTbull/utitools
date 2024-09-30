@@ -40,6 +40,7 @@ kUTTypeConformsToKey = "UTTypeConformsTo"
 logger = logging.getLogger("utitools")
 
 __all__ = [
+    "conforms_to_uti",
     "preferred_suffix_for_uti",
     "uti_for_suffix",
     "uti_for_path",
@@ -217,6 +218,15 @@ def content_type_tree_for_uti(uti: str) -> list[str]:
         # add the input UTI to the list
         uti_tree.insert(0, uti)
     return uti_tree
+
+
+def conforms_to_uti(uti1: str, uti2: str) -> bool:
+    """Returns True if uti1 conforms to uti2, False otherwise.
+
+    Example:
+        conforms_to('public.jpeg', 'public.image') -> True
+    """
+    return uti2.lower() in content_type_tree_for_uti(uti1)
 
 
 def _get_full_uti_tree_non_darwin(uti: str) -> list[str]:

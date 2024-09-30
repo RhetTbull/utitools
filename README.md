@@ -90,6 +90,21 @@ Get the UTI content type tree for a given UTI. This is hierarchical list of UTIs
 >>>
 ```
 
+### 5. `conforms_to_uti(uti1: str, uti2: str) -> bool`
+
+Return True if `uti1` conforms to `uti2`, otherwise False.
+
+This is useful for checking if a UTI conforms to a parent UTI. For example, to check if a given UTI is an image:
+
+```pycon
+>>> from utitools import conforms_to_uti
+>>> conforms_to_uti("public.jpeg", "public.image")
+True
+>>> conforms_to_uti("public.jpeg", "public.video")
+False
+>>>
+```
+
 ## macOS Version Compatibility
 
 The code path of `utitools` changes depending on the macOS version:
