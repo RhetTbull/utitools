@@ -105,6 +105,20 @@ False
 >>>
 ```
 
+These functions can be combined in useful ways. For example, the following shows a simple `is_image()` function that provides a quick way to check if a file is an image:
+
+```pycon
+>>> from utitools import uti_for_path, conforms_to_uti
+>>> def is_image(path):
+...     return conforms_to_uti(uti_for_path(path), "public.image")
+...
+>>> is_image("img_1234.jpg")
+True
+>>> is_image("img_1234.txt")
+False
+>>>
+```
+
 ## macOS Version Compatibility
 
 The code path of `utitools` changes depending on the macOS version:
