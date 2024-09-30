@@ -1,6 +1,6 @@
 """Utilities for working with Universal Type Identifiers (UTIs)"""
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 from .uti import (
     conforms_to_uti,
