@@ -136,6 +136,8 @@ There is also a `uti_tree.json` file that is used to look up content trees on no
 
 I use this library primarily to get UTIs for various image and video formats on macOS so this process is sufficient for my uses.
 
+On non-macOS platforms, only UTIs known to macOS Ventura for suffixes up to 6 characters are supported. This is because the CSV file is generated using the `generate_uti_csv.py` script which only generates mappings for suffixes up to 6 characters. This covers all my use cases. PRs are welcome to improve this.
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.

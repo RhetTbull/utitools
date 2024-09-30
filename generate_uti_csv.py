@@ -6,10 +6,10 @@ import string
 
 from utitools import preferred_suffix_for_uti, uti_for_suffix
 
-MAX_SUFFIX_LEN = 10
+MAX_SUFFIX_LEN = 6
 
 def generate_csv_data():
-    characters = string.ascii_lowercase + string.digits 
+    characters = string.ascii_lowercase + string.digits
 
     fd = open("uti.csv", "w")
     csv_writer = csv.writer(fd)
