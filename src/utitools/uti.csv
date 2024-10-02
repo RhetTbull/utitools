@@ -752,3 +752,12 @@ pkpass,com.apple.pkpass-data,pkpass
 vertex,org.khronos.glsl.vertex-shader,vs
 vncloc,com.apple.vnc-internet-location,vncloc
 webloc,com.apple.web-internet-location,webloc
+afphoto,com.seriflabs.affinityphoto.document,afphoto
+anydesk,com.philandro.playbackfilehandler.anydesk,anydesk
+artrace,com.apple.ariadne.artrace,artrace
+command,com.apple.terminal.shell-script,command
+csstore,com.apple.csstore,csstore
+dmgpart,com.apple.disk-image-udif-segment,dmgpart
+drawing,com.apple.drawing,drawing
+efindex,com.c-command.eaglefiler.index,efindex
+ezddata,com.dekorra.eazydraw.binary,ezddata
