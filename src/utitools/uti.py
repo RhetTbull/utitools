@@ -10,6 +10,9 @@
     On macOS >= 12 (Monterey), uses the UniformTypeIdentifiers module to get the UTI and the extension.
 
     On platforms other than macOS, this module will return use a cached dictionary of UTI to extension mappings.
+
+    The macOS specific methods are wrapped in try/except blocks because they may fail on some versions of macOS.
+    They will fallback to the cached versions if an exception is raised.
 """
 
 from __future__ import annotations
@@ -107,9 +110,12 @@ def preferred_suffix_for_uti(uti: str) -> str | None:
     if sys.platform != "darwin":
         return _preferred_uti_for_suffix_non_darwin(uti)
 
-    if (OS_VER, OS_MAJOR) <= (10, 16):
-        return _preferred_uti_for_suffix_darwin_10(uti)
-    return _preferred_uti_for_suffix_darwin_12(uti)
+    try:
+        if (OS_VER, OS_MAJOR) <= (10, 16):
+            return _preferred_uti_for_suffix_darwin_10(uti)
+        return _preferred_uti_for_suffix_darwin_12(uti)
+    except Exception:
+        return _preferred_uti_for_suffix_non_darwin(uti)
 
 
 def uti_for_suffix(suffix: str) -> str | None:
@@ -131,9 +137,12 @@ def uti_for_suffix(suffix: str) -> str | None:
     if sys.platform != "darwin":
         return _uti_for_suffix_non_darwin(suffix)
 
-    if (OS_VER, OS_MAJOR) <= (10, 16):
-        return _uti_for_suffix_darwin_10(suffix)
-    return _uti_for_suffix_darwin_12(suffix)
+    try:
+        if (OS_VER, OS_MAJOR) <= (10, 16):
+            return _uti_for_suffix_darwin_10(suffix)
+        return _uti_for_suffix_darwin_12(suffix)
+    except Exception:
+        return _uti_for_suffix_non_darwin(suffix)
 
 
 def uti_for_path(path: str | os.PathLike) -> str | None:
@@ -208,16 +217,19 @@ def content_type_tree_for_uti(uti: str) -> list[str]:
     if sys.platform != "darwin":
         return _get_full_uti_tree_non_darwin(uti)
 
-    if (OS_VER, OS_MAJOR) <= (10, 16):
-        uti_tree = _get_full_uti_tree_darwin_10(uti)
-    else:
-        uti_tree = _get_full_uti_tree_darwin_12(uti)
-    if not uti_tree:
-        return []
-    if uti not in uti_tree:
-        # add the input UTI to the list
-        uti_tree.insert(0, uti)
-    return uti_tree
+    try:
+        if (OS_VER, OS_MAJOR) <= (10, 16):
+            uti_tree = _get_full_uti_tree_darwin_10(uti)
+        else:
+            uti_tree = _get_full_uti_tree_darwin_12(uti)
+        if not uti_tree:
+            return []
+        if uti not in uti_tree:
+            # add the input UTI to the list
+            uti_tree.insert(0, uti)
+        return uti_tree
+    except Exception:
+        return _get_full_uti_tree_non_darwin(uti)
 
 
 def conforms_to_uti(uti1: str, uti2: str) -> bool:
