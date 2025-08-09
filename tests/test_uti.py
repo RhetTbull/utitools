@@ -42,6 +42,7 @@ PATH_UTI = [
     ("/Users/doe/Desktop/image.jpg", "public.jpeg"),  # Valid suffix with leading dot
     ("~/Downloads/screenshot.png", "public.png"),  # Valid suffix with leading dot
     ("/Users/does/Desktop/foo", None),  # no suffix
+    ("/Users/does/Desktop/.DS_Store", None),  # no suffix
 ]
 
 UTI_CONTENT_TREE_DATA = {
