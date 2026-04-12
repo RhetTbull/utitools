@@ -21,15 +21,20 @@ classifiers = [
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",    
 ]
 dependencies = [
-    "pyobjc-core>=9.0,<10.0; sys_platform == 'darwin' and platform_release < '22.0'",
-    "pyobjc-core>=9.0; sys_platform == 'darwin' and platform_release >= '22.0'",
-    "pyobjc-framework-CoreServices>=9.0,<10.0; sys_platform == 'darwin' and platform_release < '22.0'",
-    "pyobjc-framework-CoreServices>=9.0; sys_platform == 'darwin' and platform_release >= '22.0'",
-    # UniformTypeIdentifiers is only available on BigSur (11.0) and later which is platform_release >= '20.0'
-    "pyobjc-framework-UniformTypeIdentifiers>=9.0,<10.0; sys_platform == 'darwin' and platform_release >= '20.0' and platform_release < '22.0'",
-    "pyobjc-framework-UniformTypeIdentifiers>=9.0; sys_platform == 'darwin' and platform_release >= '22.0'",
+    # pyobjc 9.x is capped to macOS < Monterey AND Python < 3.12 only.
+    # pyobjc 9.x uses pkg_resources which was removed in Python 3.12 stdlib.
+    # pyobjc 10+ runs fine at runtime on macOS 12; the old cap was overly conservative.
+    "pyobjc-core>=9.0,<10.0; sys_platform == 'darwin' and platform_release < '22.0' and python_version < '3.12'",
+    "pyobjc-core>=10.0; sys_platform == 'darwin' and (platform_release >= '22.0' or python_version >= '3.12')",
+    "pyobjc-framework-CoreServices>=9.0,<10.0; sys_platform == 'darwin' and platform_release < '22.0' and python_version < '3.12'",
+    "pyobjc-framework-CoreServices>=10.0; sys_platform == 'darwin' and (platform_release >= '22.0' or python_version >= '3.12')",
+
+    # UniformTypeIdentifiers only exists on macOS 11+ (Darwin >= 20.x)
+    "pyobjc-framework-UniformTypeIdentifiers>=9.0,<10.0; sys_platform == 'darwin' and platform_release >= '20.0' and platform_release < '22.0' and python_version < '3.12'",
+    "pyobjc-framework-UniformTypeIdentifiers>=10.0; sys_platform == 'darwin' and platform_release >= '20.0' and (platform_release >= '22.0' or python_version >= '3.12')",
 ]
 
 [project.optional-dependencies]
